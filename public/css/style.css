@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&family=Piazzolla:ital,wght@1,100;1,200;1,400;1,700&display=swap');
+*{
+    font-family: 'Piazzolla', serif;
+}
+body{
+    overflow-x: hidden;
+}
+footer{
+    width: 100%;
+    background-color: var(--main-bg);
+    position:absolute;
+   bottom:0;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+

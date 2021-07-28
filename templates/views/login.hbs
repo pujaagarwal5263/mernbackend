@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <form class="bg-dark p-3 m-3 col-6" action="/login" method="POST">
+        <h3 class="text-white text-center">Login Here</h3>
+        <hr class="my-4 bg-light">
+
+        <div class="row">
+          <div class="form-group col-10">
+          <input type="email" class="form-control" id="emailinput" name="email" placeholder="Email *">
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-10">
+          <input type="password" class="form-control" id="passwrdinput" name="password" placeholder="Password *">
+          </div>
+        </div>
+        
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+{{>footer}}
+</body>
+</html>
+
